@@ -1,2 +1,2 @@
 # Metropolia-C
-Source code for Metropolia ICT C course
+Metropolia C course: Exercises
