@@ -22,7 +22,6 @@ int main()
 {
 	int numbers[] = {21, 55, 5, 3, 43};
 	int size = 5;
-
 	int *smallest = address_of_smallest_value(numbers, size);
 
 	printf("The smallest number in the array is: %d\n", *smallest);
@@ -41,7 +40,6 @@ int *address_of_smallest_value(int *numbers, int size)
 		{
 		lowest = numbers[i];
 		}
-
 	}
 	return p_lowest;
 }
